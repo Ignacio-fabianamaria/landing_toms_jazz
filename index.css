@@ -4,3 +4,10 @@
     margin: 0;
     padding: 0;
 }
+
+:roo {
+    --color-primary: #ED4D1B;
+    --color-secundary: #FF9A3C;
+    --color-black: #000;
+    --color-white: #fff;
+}
