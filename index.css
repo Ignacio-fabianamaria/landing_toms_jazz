@@ -101,6 +101,20 @@ h2 {
     width: 132px;
 }
 
+.decoration {
+    display: block;
+    position: relative;
+}
+
+.decoration::after {
+    content: '';
+    background: url('img/three-dashes.svg');
+    position: absolute;
+    top: -0.75rem;
+    height: 36PX;
+    width: 40PX;
+}
+
 .mt-1{
     margin-top: 1rem;
 }
